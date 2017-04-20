@@ -20,5 +20,5 @@ phonesFinal.o subexpr.o regex1.o \
 REerrs.o sci_dec.o manips11.o zips.o: ../Version_test.h
 
 findbook.exe: findbook.o ../14/Sales_data.o
-	$(CC) $(CCFLAGS) -o findbook findbook.o ../14/Sales_data.o
+	$(CC) $(CCFLAGS) -o $@ findbook.o ../14/Sales_data.o
 
